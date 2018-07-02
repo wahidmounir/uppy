@@ -27,6 +27,12 @@ This plugin is published as the `@uppy/informer` package.
 npm install @uppy/informer
 ```
 
+In the [CDN package](/docs/#With-a-script-tag), it is available on the `Uppy` global object:
+
+```js
+const Informer = Uppy.Informer
+```
+
 ## CSS
 
 The Informer plugin includes CSS a file for styling. If you use the [`@uppy/dashboard`](/docs/dashboard) plugin, you do not need to include the styles for the Informer, because the Dashboard already includes it.

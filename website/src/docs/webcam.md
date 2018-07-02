@@ -27,6 +27,12 @@ This plugin is published as the `@uppy/webcam` package.
 npm install @uppy/webcam
 ```
 
+In the [CDN package](/docs/#With-a-script-tag), it is available on the `Uppy` global object:
+
+```js
+const Webcam = Uppy.Webcam
+```
+
 ## Options
 
 ```js

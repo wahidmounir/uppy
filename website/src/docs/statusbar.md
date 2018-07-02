@@ -27,6 +27,12 @@ This plugin is published as the `@uppy/status-bar` package.
 npm install @uppy/status-bar
 ```
 
+In the [CDN package](/docs/#With-a-script-tag), it is available on the `Uppy` global object:
+
+```js
+const StatusBar = Uppy.StatusBar
+```
+
 ## CSS
 
 The StatusBar plugin includes CSS a file for styling. If you use the [`@uppy/dashboard`](/docs/dashboard) plugin, you do not need to include the styles for the StatusBar, because the Dashboard already includes it.
