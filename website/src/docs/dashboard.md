@@ -2,13 +2,14 @@
 type: docs
 order: 20
 title: "Dashboard"
+module: @uppy/dashboard
 permalink: docs/dashboard/
 ---
 
-Dashboard is a universal UI plugin for Uppy:
+`@uppy/dashboard` is the universal UI plugin for Uppy:
 
-- Drag and Drop, paste, select from local disk / my device
-- UI for Webcam and remote sources: Google Drive, Dropbox, Instagram (all optional, added via plugins)
+- Drag and Drop, paste, select from local device
+- UI for Webcam and remote sources: Google Drive, Dropbox, Instagram, URLs (all optional, added via plugins)
 - File previews and info
 - Metadata editor
 - Progress: total and for individual files
